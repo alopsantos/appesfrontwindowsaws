@@ -60,8 +60,8 @@ export default function New(history) {
                     value = {valor}
                     onChange={event => setValor(event.target.value)}
                 />
-                <a href="/dashboard" className="btn voltar" type="submit">v</a>    
                 <button className="btn" type="submit">Adicionar</button>
+                <a href="/dashboard" className="btn voltar" type="submit">🔙</a>    
             </form>
         </>
     )

@@ -80,3 +80,6 @@ body, input, button{
 .content button.btn:hover{
   background: #e14f50;
 }
+table.venda-lista{padding: 10px 0 40px 0}
+table.venda-lista thead tr td{width: calc(450px/3);}
+.voltar{text-decoration: none; width: 50px; height: 50px; margin-top: 20px; font-size: 30px;}

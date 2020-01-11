@@ -23,16 +23,16 @@ export default function Dashborad(){
             <table className="venda-lista">
                 <thead>
                     <tr>
-                        <td>Valor</td>
                         <td>Data</td>
-                        <td></td>
+                        <td>Valor</td>
+                        <td>Atualizar</td>
                     </tr>
                 </thead>
                 <tbody>
                 {vendas.map(venda => (  
                     <tr key={venda.id} >
-                        <td width="100">{venda.valortotal}</td>
                         <td>{venda.datavenda}</td>
+                        <td width="100">{venda.valortotal}</td>
                         <td>
                             <Link to={`/atualizar/${venda.id}`}>
                             <button className="btn">+</button>
